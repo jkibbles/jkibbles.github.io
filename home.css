@@ -351,6 +351,7 @@ template {
   display: none;
 }
 /*My CSS*/
+/* navigation bar*/
 .nav {
   background-color: white;
   overflow: hidden;
@@ -365,6 +366,7 @@ template {
   font-size: 17px;
   transition: 0.3s;
 }
+/* navigation bar after hover*/
 .nav a:hover {
   background-color: rgb(63, 63, 63);
   color: white;
@@ -373,7 +375,7 @@ template {
   display: none;
   padding: 5px;
 }
-
+/* navigation bar mobile size*/
 @media screen and (max-width: 600px) {
   .nav {
     width: 512px;
@@ -402,6 +404,7 @@ template {
     text-align: left;
   }
 }
+/* band photo*/
 .bckimg {
   background-image: url("https://www.moshimoshi-nippon.jp/wp/wp-content/uploads/2021/01/43803bce9055632b7df282317b321339.jpg");
   max-width: 100%;
@@ -418,6 +421,7 @@ template {
 .members {
   margin-top: 0px;
 }
+/* resize band name*/
 .intro {
   font-size: 100px;
   font-size: 11vw;
@@ -426,6 +430,7 @@ template {
   text-shadow: 2px 2px 8px black;
   margin-bottom: 300px;
 }
+/* social media*/
 .homefooter {
   text-shadow: 2px 2px 4px #000000;
   font-size: 20px;
@@ -469,6 +474,7 @@ template {
 .fa-youtube {
   color: white;
 }
+/*band members name*/
 .boxes {
   display: flex;
   flex-direction: row;
@@ -503,6 +509,7 @@ template {
   border-left: 15px solid transparent;
   border-bottom: 15px solid white;
 }
+/* members info*/
 .info {
   display: flex;
   color: white;
@@ -520,9 +527,11 @@ template {
   padding-top: 15px;
   padding-bottom: 10px;
 }
+/* logo*/
 .whitemustache {
   padding-bottom: 45px;
 }
+/* song video*/
 .song {
   display: flex;
   justify-content: center;
@@ -530,13 +539,14 @@ template {
   padding-top: 50px;
   margin-bottom: 60px;
 }
+/* mobile resize for music*/
 @media screen and (max-width: 600px) {
   .song {
     display: flex;
     flex-direction: column;
   }
 }
-
+/* music info*/
 .hit {
   width: 480px;
   height: 170px;
@@ -548,9 +558,11 @@ template {
 .video {
   border: 0;
 }
+/* music info text reposition*/
 #pretender {
   margin-left: 20px;
   margin-right: 20px;
   padding-top: 30px;
   text-align: center;
 }
+
